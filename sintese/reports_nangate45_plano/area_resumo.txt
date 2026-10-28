@@ -1,0 +1,5 @@
+area total            : 93223.690
+area da RAM           : 0.000 (0.0%)
+area sem a RAM        : 93223.690
+area do classificador : 19710.866
+area da morfologia    : 0.000

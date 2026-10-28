@@ -1,0 +1,10 @@
+  DS2 com banda limitada a 128 Hz (mesmos pacientes, modelo congelado)
+  MATRIZ (linha=real, coluna=predito: N SVEB VEB F Q)
+   N       42761     597     674     109       0
+   SVEB     1384     263     141      35       0
+   VEB       329       3    2744       4       0
+   F         349       1      30       0       0
+   Q           6       0       1       0       0
+   N     Se=0.971  +P=0.961
+   SVEB  Se=0.147  +P=0.305
+   VEB   Se=0.892  +P=0.771

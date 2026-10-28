@@ -1,0 +1,37 @@
+   Reg       RTL  golden  iguais  situacao
+   100         -    2267       -  sem dump
+   103         -    2079       -  sem dump
+   105         -    2688       -  sem dump
+   111         -    2123       -  sem dump
+   113         -    1790       -  sem dump
+   117         -    1531       -  sem dump
+   121         -    1869       -  sem dump
+   123         -    1511       -  sem dump
+   200         -    2687       -  sem dump
+   202         -    2115       -  sem dump
+   210         -    2630       -  sem dump
+   212         -    2750       -  sem dump
+   213         -    3239       -  sem dump
+   214         -    2258       -  sem dump
+   219         -    2146       -  sem dump
+   221         -    2369       -  sem dump
+   222         -    2505       -  sem dump
+   228         -    2152       -  sem dump
+   231         -    1567       -  sem dump
+   232         -    1786       -  sem dump
+   233         -    3069       -  sem dump
+   234         -    2744       -  sem dump
+
+   Registros identicos: 0/22
+
+   MATRIZ DO GOLDEN MODEL (linha=real, coluna=predito: N SVEB VEB F Q)
+   N       42852     596     589     104       0
+   SVEB     1388     266     134      36       0
+   VEB       331       3    2745       4       0
+   F         343       0      37       0       0
+   Q           5       0       2       0       0
+   Metricas (convencao focada N/SVEB/VEB):
+   N     Se=0.973  +P=0.961  (n=44037)
+   SVEB  Se=0.149  +P=0.308  (n=1788)
+   VEB   Se=0.892  +P=0.792  (n=3079)
+   Acuracia N/SVEB/VEB: 0.9378

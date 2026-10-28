@@ -1,0 +1,23 @@
+Power Unit: W
+Area Unit: Um^2
+PDB Frame : /stim#0/frame#0
+----------------------------------------------------------------------------------------------------------------------------
+Cells Pct_cells     Leakage    Internal   Switching       Total Lvl Instance                                                
+----------------------------------------------------------------------------------------------------------------------------
+28842   100.00% 1.72010e-03 7.87940e-03 2.37291e-03 1.19724e-02   0 /ecg_processor_top_spi                                  
+15829    54.88% 9.78799e-04 4.13029e-03 1.16296e-03 6.27204e-03   1 /ecg_processor_top_spi/i_core                           
+15774    54.69% 9.76181e-04 4.12032e-03 1.14961e-03 6.24612e-03   2 /ecg_processor_top_spi/i_core/i_datapath                
+13162    45.63% 8.07698e-04 3.31588e-03 9.35676e-04 5.05925e-03   3 /ecg_processor_top_spi/i_core/i_datapath/i_ram          
+ 1135     3.94% 8.32137e-05 3.70617e-04 4.43055e-05 4.98136e-04   3 /ecg_processor_top_spi/i_core/i_datapath/i_integrator   
+  953     3.30% 5.04080e-05 2.24581e-04 8.31135e-05 3.58103e-04   3 /ecg_processor_top_spi/i_core/i_datapath/i_peak_detector
+  261     0.90% 1.78785e-05 1.06626e-04 4.43308e-05 1.68835e-04   3 /ecg_processor_top_spi/i_core/i_datapath/i_derivator    
+  180     0.62% 1.14171e-05 7.71861e-05 3.19344e-05 1.20538e-04   3 /ecg_processor_top_spi/i_core/i_datapath/i_filter       
+   65     0.23% 3.49025e-06 1.25030e-05 3.08532e-06 1.90785e-05   3 /ecg_processor_top_spi/i_core/i_datapath/i_ula          
+   55     0.19% 2.61811e-06 9.96439e-06 1.33424e-05 2.59249e-05   2 /ecg_processor_top_spi/i_core/i_fsm                     
+ 5976    20.72% 3.56164e-04 1.86117e-03 5.79751e-04 2.79709e-03   1 /ecg_processor_top_spi/i_cls                            
+  496     1.72% 2.47319e-05 1.97009e-04 7.45732e-05 2.96315e-04   2 /ecg_processor_top_spi/i_cls/i_div                      
+  404     1.40% 9.35196e-06 6.01456e-06 4.58304e-06 1.99496e-05   2 /ecg_processor_top_spi/i_cls/i_arvore                   
+ 6635    23.00% 3.60959e-04 1.76565e-03 6.13082e-04 2.73969e-03   1 /ecg_processor_top_spi/i_morf                           
+  493     1.71% 2.46068e-05 1.74164e-04 5.58515e-05 2.54622e-04   2 /ecg_processor_top_spi/i_morf/i_div                     
+   59     0.20% 4.72598e-06 2.86026e-05 2.30307e-06 3.56317e-05   1 /ecg_processor_top_spi/i_spi                            
+----------------------------------------------------------------------------------------------------------------------------

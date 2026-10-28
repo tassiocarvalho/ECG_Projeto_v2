@@ -1,0 +1,24 @@
+# DS2 com RAM de 19 bits e verificacoes embutidas: dump identico ao anterior, erros acusados, maior idade de leitura do buffer (amostras)
+100 IDENTICO erros=0 idade_max=120
+123 IDENTICO erros=0 idade_max=120
+219 IDENTICO erros=0 idade_max=120
+221 IDENTICO erros=0 idade_max=143
+103 IDENTICO erros=0 idade_max=120
+200 IDENTICO erros=0 idade_max=146
+222 IDENTICO erros=0 idade_max=146
+105 IDENTICO erros=0 idade_max=146
+202 IDENTICO erros=0 idade_max=120
+228 IDENTICO erros=0 idade_max=146
+111 IDENTICO erros=0 idade_max=133
+210 IDENTICO erros=0 idade_max=146
+231 IDENTICO erros=0 idade_max=120
+113 IDENTICO erros=0 idade_max=120
+212 IDENTICO erros=0 idade_max=143
+232 IDENTICO erros=0 idade_max=145
+117 IDENTICO erros=0 idade_max=120
+213 IDENTICO erros=0 idade_max=120
+233 IDENTICO erros=0 idade_max=120
+121 IDENTICO erros=0 idade_max=143
+214 IDENTICO erros=0 idade_max=136
+234 IDENTICO erros=0 idade_max=120
+FIM

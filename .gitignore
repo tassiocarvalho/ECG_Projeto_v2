@@ -1,0 +1,37 @@
+# Bases do PhysioNet e entradas geradas (python/baixar_dados.py)
+dados/
+
+# Caches do datapath (python/gerar_cache.py, externo_*.py, banda_ds2.py)
+python/cache*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Xcelium / SimVision
+xcelium.d/
+INCA_libs/
+*.shm/
+*.trn
+*.dsn
+*.vcd
+*.fst
+xrun.history
+xrun.log
+xrun.key
+waves.shm/
+
+# Genus (pasta de trabalho)
+sintese/LIB/
+sintese/RTL/
+sintese/constraints/
+fv/
+*.log
+genus.cmd*
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

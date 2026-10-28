@@ -1,0 +1,6 @@
+area total            : 367239.706
+area da RAM           : 152593.845 (41.6%)
+area sem a RAM        : 214645.861
+area do classificador : 83583.913
+area da morfologia    : 84089.398
+periodo de mapeamento : 100 ns

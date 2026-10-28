@@ -1,0 +1,9 @@
+  Ablacao (treino DS1, teste DS2, depth=7, pesos SVEB=1 VEB=1.5, 49435 batimentos de teste)
+   variante                                   comparadores     VEB Se/+P    SVEB Se/+P       N Se/+P
+   todas (modelo final)                                 62   0.892/0.792   0.149/0.308   0.973/0.961
+   sem sad_t                                            61   0.446/0.455   0.069/0.186   0.962/0.937
+   sem dpol                                             61   0.891/0.794   0.149/0.308   0.973/0.961
+   sem d_w                                              59   0.788/0.783   0.149/0.308   0.974/0.954
+   sem morfologia (sad_t, dpol, d_w)                    54   0.434/0.387   0.057/0.157   0.956/0.939
+   sem irr_np                                           62   0.891/0.809   0.054/0.143   0.975/0.958
+   sem base lenta (rr_base, rr_next_base)               48   0.826/0.695   0.089/0.293   0.969/0.954

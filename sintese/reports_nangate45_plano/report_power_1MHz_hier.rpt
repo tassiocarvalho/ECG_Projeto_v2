@@ -1,0 +1,18 @@
+Power Unit: W
+Area Unit: Um^2
+PDB Frame : /stim#0/frame#0
+----------------------------------------------------------------------------------------------------------------------------
+Cells Pct_cells     Leakage    Internal   Switching       Total Lvl Instance                                                
+----------------------------------------------------------------------------------------------------------------------------
+28145   100.00% 1.68272e-03 7.07816e-05 1.45169e-05 1.76802e-03   0 /ecg_processor_top_spi                                  
+ 5894    20.94% 3.51454e-04 1.60680e-05 3.35468e-06 3.70877e-04   1 /ecg_processor_top_spi/i_cls                            
+  496     1.76% 2.46335e-05 1.30881e-06 2.57858e-07 2.62002e-05   2 /ecg_processor_top_spi/i_cls/i_div                      
+ 1135     4.03% 8.20558e-05 3.46837e-06 2.20749e-07 8.57449e-05   1 /ecg_processor_top_spi/i_core_i_datapath_i_integrator   
+  953     3.39% 5.00705e-05 1.90108e-06 5.55732e-07 5.25273e-05   1 /ecg_processor_top_spi/i_core_i_datapath_i_peak_detector
+  493     1.75% 2.46104e-05 1.24443e-06 2.80313e-07 2.61352e-05   1 /ecg_processor_top_spi/i_morf_i_div                     
+  261     0.93% 1.77929e-05 7.65286e-07 1.07281e-07 1.86654e-05   1 /ecg_processor_top_spi/i_core_i_datapath_i_derivator    
+  180     0.64% 1.14049e-05 5.44335e-07 2.21626e-07 1.21709e-05   1 /ecg_processor_top_spi/i_core_i_datapath_i_filter       
+   59     0.21% 4.72867e-06 2.92224e-07 8.51180e-09 5.02941e-06   1 /ecg_processor_top_spi/i_spi                            
+   65     0.23% 2.77214e-06 2.92690e-11 3.77300e-12 2.77217e-06   1 /ecg_processor_top_spi/i_core_i_datapath_i_ula          
+   55     0.20% 2.45405e-06 8.72469e-08 3.75717e-08 2.57887e-06   1 /ecg_processor_top_spi/i_core_i_fsm                     
+----------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+  Versao intermediaria (selecionada so' no DS1; rr_irreg; depth 6, pesos 1.5/1.5)
+  arvore: 43 comparadores
+  DS2 reconstruido = validacao/ds2_golden.txt: SIM
+   DS2  N 0.968/0.960  SVEB 0.076/0.213  VEB 0.909/0.725
+   INCART (75 registros)  N 0.937/0.977  SVEB 0.566/0.195  VEB 0.853/0.754
+   INCART VEB IC95 por paciente (32): Se [0.77-0.92]  +P [0.66-0.82]
+   matriz INCART (N SVEB VEB F Q):
+      141705    4384    5222      27       0
+         610    1095     228       6       0
+        2725     143   16690       3       0
+         150       1      50       0       0
+           3       1       2       0       0

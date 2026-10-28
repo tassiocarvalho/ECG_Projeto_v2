@@ -1,0 +1,6 @@
+  INCART: 23 de 75 registros sem nenhuma amostra saturada sem o filtro
+  registros: I03 I05 I08 I11 I12 I13 I17 I23 I24 I26 I30 I32 I33 I34 I48 I49 I52 I61 I63 I64 I70 I71 I75
+   pipeline            deteccao Se/+P        VEB Se/+P       N Se/+P        SVEB Se/+P
+   com passa-altas     0.9753/0.9577     0.810/0.700     0.961/0.974     0.479/0.446
+   sem passa-altas     0.9754/0.9583     0.805/0.702     0.962/0.974     0.485/0.463
+  matrizes de confusao identicas em 5 de 23 registros

@@ -1,0 +1,11 @@
+  SVDB (validacao externa): 78 registros
+  Deteccao: Se=0.9960  +P~=0.9529
+  MATRIZ (linha=real, coluna=predito: N SVEB VEB F Q)
+   N      148454    1359   11597     149       0
+   SVEB     6040    1675    4369      51       0
+   VEB      2553     108    6909      26       0
+   F          21       0       2       0       0
+   Q          33       9      24       0       0
+   N     Se=0.920  +P=0.945  (n=161410)
+   SVEB  Se=0.139  +P=0.533  (n=12084)
+   VEB   Se=0.722  +P=0.302  (n=9570)

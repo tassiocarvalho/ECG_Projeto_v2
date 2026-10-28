@@ -1,0 +1,1 @@
+report_power_1MHz: atividade real (potencia_tb, atividade.tcf)
