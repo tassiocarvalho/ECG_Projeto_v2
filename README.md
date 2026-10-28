@@ -347,4 +347,4 @@ Os dados não são distribuídos aqui; o `baixar_dados.py` busca tudo no
 
 ## Licença
 
-[MIT](LICENSE) © Tássio Carvalho
+[MIT](LICENSE) © Fernanda Marinho - Tássio Carvalho
