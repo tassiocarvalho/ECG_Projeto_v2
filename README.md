@@ -161,6 +161,18 @@ classificação nos registros que não saturam
 
 <p align="center"><img src="figuras/img/porpaciente_veb.png" width="420"><br><sub>VEB por registro no DS2 e na INCART (★ = agregado)</sub></p>
 
+### Estabilidade do molde e métricas por paciente
+
+[python/analise_molde.py](python/analise_molde.py) → [validacao/analise_molde.txt](validacao/analise_molde.txt):
+
+- o molde é atualizado por batimentos **não prematuros**, que não são necessariamente
+  normais. Mesmo assim, só **0,63%** das 40.858 atualizações no DS2 vieram de VEB. O
+  pior caso é o registro 200 (5,8%), que mantém VEB 0,84 / 0,97;
+- a variação do molde entre minutos consecutivos tem mediana de 0,10: ele acompanha
+  mudanças lentas sem ser arrastado por batimentos isolados;
+- média por paciente (registros com ≥ 10 VEB): Se **0,89** (mediana 0,92), +P **0,87**
+  (mediana 0,97); falsos positivos de VEB com mediana de **7 por hora**.
+
 **Formas de onda no SimVision** (registro 233, rico em VEB): sinal recebido pelo
 SPI, sinal integrado, alerta de pico, distância ao molde, largura e classe de
 saída:
@@ -207,6 +219,9 @@ de clock nem parasitas, e não medições em silício. Relatórios:
 [reports_nangate45_cg/](sintese/reports_nangate45_cg/),
 [reports_sky130_cg/](sintese/reports_sky130_cg/)
 (e [reports_nangate45/](sintese/reports_nangate45/), versão anterior com RAM de 32 bits).
+A potência não depende do ritmo: com a atividade do registro 233, rico em VEB, a
+SkyWater dá 4,562 µW, contra 4,559 µW com o registro 100
+([reports_sky130_cg_reg233/](sintese/reports_sky130_cg_reg233/)).
 
 ## Como rodar
 
@@ -295,6 +310,7 @@ python figuras/gerar_figuras_v2.py      # figuras/img/*.png
 │   ├── validar_v2.py · estatisticas_v2.py
 │   ├── externo_incart.py · externo_svdb.py · banda_ds2.py
 │   ├── ablacao_v2.py · intermediaria_incart.py · incart_filtro.py
+│   ├── analise_molde.py           estabilidade do molde e métricas por paciente
 │   ├── gerar_treino.py · treinar_classificador.py   mapeamento AAMI e núcleo CART inteiro
 │   └── baixar_dados.py · gerar_mem_ganho_fixo.py
 ├── validacao/           relatórios de métricas e dumps do RTL (v2 e v1)

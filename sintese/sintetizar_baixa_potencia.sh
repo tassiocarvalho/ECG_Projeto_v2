@@ -14,6 +14,7 @@
 cd "$(dirname "$0")" || exit 1
 [ -f "$LIB" ] || { echo "defina LIB=<arquivo .lib>"; exit 1; }
 NOME=${NOME:-baixa_potencia}
+REG=${REG:-100}                # registro usado para a atividade (10 s)
 CLK_NS=${CLK_NS:-10000}
 SCLK_MEIO=${SCLK_MEIO:-50000}
 PERIODO_SINT=${PERIODO_SINT:-100}
@@ -25,11 +26,11 @@ AQUI=$(pwd)
 W=$(mktemp -d)
 mkdir -p "$W/LIB" "$W/RTL" "$W/constraints" "$W/xc"
 
-echo "=== 1) atividade (registro 100, 10 s, clk $((1000000 / CLK_NS)) kHz, SPI $((500000 / SCLK_MEIO)) kHz)"
+echo "=== 1) atividade (registro $REG, 10 s, clk $((1000000 / CLK_NS)) kHz, SPI $((500000 / SCLK_MEIO)) kHz)"
 FL=""; for f in $RTL; do FL="$FL $AQUI/../rtl/$f.v"; done
 ( cd "$W" && xrun -q -access +r -xmlibdirpath "$W/xc" -l "$W/xc/xrun.log" "$AQUI/potencia_tb.v" $FL \
       -defparam potencia_tb.CLK_NS=$CLK_NS -defparam potencia_tb.SCLK_MEIO=$SCLK_MEIO \
-      -input "$AQUI/tcf.tcl" +REG=100 +N=3600 +DIR=$MEM > /dev/null )
+      -input "$AQUI/tcf.tcl" +REG=$REG +N=3600 +DIR=$MEM > /dev/null )
 grep -E 'potencia_tb|picos|\*E|\*F|ERRO' "$W/xc/xrun.log" | head -6
 
 echo "=== 2) Genus ($(basename "$LIB"), $SCRIPT)"
